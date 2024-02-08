@@ -1,0 +1,45 @@
+.drawing {
+   
+}
+
+.title {
+    width: -50%;
+    margin: auto;
+}
+.canv {
+    border: solid 1px black;
+}
+
+.tabControl {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 5px 5px;
+    display: inline-grid;
+    position: absolute;
+    left: 470px;
+    top: 8px;
+}
+.tabControl button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tabControl button:hover {
+    background-color: #ddd;
+}
+
+.tabControl button:active {
+    background-color: #ccc;
+}
+
+.tabBrushes button {
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
