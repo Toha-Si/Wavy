@@ -43,35 +43,10 @@ class Renderer
 							break;
 							case 2:
 							 	new Circle(new Vector2(x, y), 2, SHAPE_MODE.Obstacle, 20, 0, 190)
-								//grid[i][j].Clear();
-								//grid[i][j].Mass = 0;
-								//grid[i][j].Color = 190;
 							break;
 						default:
 	      					console.log(`Unknown button code: ${currentMouseButton}`);
 						}
-	        	/*	
-		  		for(let i = x-2; i < x+2; i++)
-				{
-					for(let j = y-2; j < y+2; j++)
-					{
-						switch(this.currentMouseButton)
-						{
-							case 0:
-								let h = grid[i][j].Mass[0] == 0 ? 0 : 3;
-								grid[i][j].Height = h;
-							break;
-							case 2:
-								grid[i][j].Clear();
-								grid[i][j].Mass = 0;
-								grid[i][j].Color = 190;
-							break;
-						default:
-	      					console.log(`Unknown button code: ${currentMouseButton}`);
-						}
-					}
-				}
-				*/
 	      	}
 	    };
 	}
